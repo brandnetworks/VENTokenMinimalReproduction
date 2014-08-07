@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8E28DFAB164B2D9F6322CC /* libPods-VENTokenMinimalReproduction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD2E74B05844E7BB4F7DDDB /* libPods-VENTokenMinimalReproduction.a */; };
 		3DB0EE021993BA0700130221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EE011993BA0700130221 /* Foundation.framework */; };
 		3DB0EE041993BA0700130221 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EE031993BA0700130221 /* CoreGraphics.framework */; };
 		3DB0EE061993BA0700130221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EE051993BA0700130221 /* UIKit.framework */; };
@@ -14,14 +15,14 @@
 		3DB0EE0E1993BA0700130221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0EE0D1993BA0700130221 /* main.m */; };
 		3DB0EE121993BA0700130221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0EE111993BA0700130221 /* AppDelegate.m */; };
 		3DB0EE151993BA0700130221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0EE131993BA0700130221 /* Main.storyboard */; };
-		3DB0EE181993BA0700130221 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0EE171993BA0700130221 /* MasterViewController.m */; };
-		3DB0EE1B1993BA0700130221 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0EE1A1993BA0700130221 /* DetailViewController.m */; };
+		3DB0EE181993BA0700130221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0EE171993BA0700130221 /* ViewController.m */; };
 		3DB0EE1D1993BA0700130221 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0EE1C1993BA0700130221 /* Images.xcassets */; };
 		3DB0EE241993BA0700130221 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EE231993BA0700130221 /* XCTest.framework */; };
 		3DB0EE251993BA0700130221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EE011993BA0700130221 /* Foundation.framework */; };
 		3DB0EE261993BA0700130221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EE051993BA0700130221 /* UIKit.framework */; };
 		3DB0EE2E1993BA0700130221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0EE2C1993BA0700130221 /* InfoPlist.strings */; };
 		3DB0EE301993BA0700130221 /* VENTokenMinimalReproductionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0EE2F1993BA0700130221 /* VENTokenMinimalReproductionTests.m */; };
+		B07A80A7662B48438E1118FD /* libPods-VENTokenMinimalReproductionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C52A3BF2E0AB4C858164133D /* libPods-VENTokenMinimalReproductionTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD2E74B05844E7BB4F7DDDB /* libPods-VENTokenMinimalReproduction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VENTokenMinimalReproduction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6034DEF27940A281E1930B /* Pods-VENTokenMinimalReproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VENTokenMinimalReproduction.xcconfig"; path = "Pods/Pods-VENTokenMinimalReproduction.xcconfig"; sourceTree = "<group>"; };
 		3DB0EDFE1993BA0700130221 /* VENTokenMinimalReproduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VENTokenMinimalReproduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB0EE011993BA0700130221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DB0EE031993BA0700130221 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +49,16 @@
 		3DB0EE101993BA0700130221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DB0EE111993BA0700130221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3DB0EE141993BA0700130221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DB0EE161993BA0700130221 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		3DB0EE171993BA0700130221 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3DB0EE191993BA0700130221 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3DB0EE1A1993BA0700130221 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3DB0EE161993BA0700130221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DB0EE171993BA0700130221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DB0EE1C1993BA0700130221 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DB0EE221993BA0700130221 /* VENTokenMinimalReproductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VENTokenMinimalReproductionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB0EE231993BA0700130221 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3DB0EE2B1993BA0700130221 /* VENTokenMinimalReproductionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VENTokenMinimalReproductionTests-Info.plist"; sourceTree = "<group>"; };
 		3DB0EE2D1993BA0700130221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DB0EE2F1993BA0700130221 /* VENTokenMinimalReproductionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VENTokenMinimalReproductionTests.m; sourceTree = "<group>"; };
+		775C4BB8D2CD4393860A9E55 /* Pods-VENTokenMinimalReproductionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VENTokenMinimalReproductionTests.xcconfig"; path = "Pods/Pods-VENTokenMinimalReproductionTests.xcconfig"; sourceTree = "<group>"; };
+		C52A3BF2E0AB4C858164133D /* libPods-VENTokenMinimalReproductionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VENTokenMinimalReproductionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 				3DB0EE041993BA0700130221 /* CoreGraphics.framework in Frameworks */,
 				3DB0EE061993BA0700130221 /* UIKit.framework in Frameworks */,
 				3DB0EE021993BA0700130221 /* Foundation.framework in Frameworks */,
+				2F8E28DFAB164B2D9F6322CC /* libPods-VENTokenMinimalReproduction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +80,7 @@
 				3DB0EE241993BA0700130221 /* XCTest.framework in Frameworks */,
 				3DB0EE261993BA0700130221 /* UIKit.framework in Frameworks */,
 				3DB0EE251993BA0700130221 /* Foundation.framework in Frameworks */,
+				B07A80A7662B48438E1118FD /* libPods-VENTokenMinimalReproductionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +94,8 @@
 				3DB0EE291993BA0700130221 /* VENTokenMinimalReproductionTests */,
 				3DB0EE001993BA0700130221 /* Frameworks */,
 				3DB0EDFF1993BA0700130221 /* Products */,
+				1C6034DEF27940A281E1930B /* Pods-VENTokenMinimalReproduction.xcconfig */,
+				775C4BB8D2CD4393860A9E55 /* Pods-VENTokenMinimalReproductionTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +115,8 @@
 				3DB0EE031993BA0700130221 /* CoreGraphics.framework */,
 				3DB0EE051993BA0700130221 /* UIKit.framework */,
 				3DB0EE231993BA0700130221 /* XCTest.framework */,
+				0AD2E74B05844E7BB4F7DDDB /* libPods-VENTokenMinimalReproduction.a */,
+				C52A3BF2E0AB4C858164133D /* libPods-VENTokenMinimalReproductionTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +127,8 @@
 				3DB0EE101993BA0700130221 /* AppDelegate.h */,
 				3DB0EE111993BA0700130221 /* AppDelegate.m */,
 				3DB0EE131993BA0700130221 /* Main.storyboard */,
-				3DB0EE161993BA0700130221 /* MasterViewController.h */,
-				3DB0EE171993BA0700130221 /* MasterViewController.m */,
-				3DB0EE191993BA0700130221 /* DetailViewController.h */,
-				3DB0EE1A1993BA0700130221 /* DetailViewController.m */,
+				3DB0EE161993BA0700130221 /* ViewController.h */,
+				3DB0EE171993BA0700130221 /* ViewController.m */,
 				3DB0EE1C1993BA0700130221 /* Images.xcassets */,
 				3DB0EE081993BA0700130221 /* Supporting Files */,
 			);
@@ -164,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DB0EE331993BA0700130221 /* Build configuration list for PBXNativeTarget "VENTokenMinimalReproduction" */;
 			buildPhases = (
+				D20B139A7F5F4CB09C12CF8A /* Check Pods Manifest.lock */,
 				3DB0EDFA1993BA0700130221 /* Sources */,
 				3DB0EDFB1993BA0700130221 /* Frameworks */,
 				3DB0EDFC1993BA0700130221 /* Resources */,
+				DD9EACEC6A674B4191C23091 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DB0EE361993BA0700130221 /* Build configuration list for PBXNativeTarget "VENTokenMinimalReproductionTests" */;
 			buildPhases = (
+				7C571A80F13349508BBB4975 /* Check Pods Manifest.lock */,
 				3DB0EE1E1993BA0700130221 /* Sources */,
 				3DB0EE1F1993BA0700130221 /* Frameworks */,
 				3DB0EE201993BA0700130221 /* Resources */,
+				8AAAE8A55B7D4798B823A1C7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,15 +260,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C571A80F13349508BBB4975 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAAE8A55B7D4798B823A1C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-VENTokenMinimalReproductionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20B139A7F5F4CB09C12CF8A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9EACEC6A674B4191C23091 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-VENTokenMinimalReproduction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DB0EDFA1993BA0700130221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3DB0EE121993BA0700130221 /* AppDelegate.m in Sources */,
-				3DB0EE181993BA0700130221 /* MasterViewController.m in Sources */,
+				3DB0EE181993BA0700130221 /* ViewController.m in Sources */,
 				3DB0EE0E1993BA0700130221 /* main.m in Sources */,
-				3DB0EE1B1993BA0700130221 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +452,7 @@
 		};
 		3DB0EE341993BA0700130221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6034DEF27940A281E1930B /* Pods-VENTokenMinimalReproduction.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +466,7 @@
 		};
 		3DB0EE351993BA0700130221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6034DEF27940A281E1930B /* Pods-VENTokenMinimalReproduction.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -405,6 +480,7 @@
 		};
 		3DB0EE371993BA0700130221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775C4BB8D2CD4393860A9E55 /* Pods-VENTokenMinimalReproductionTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VENTokenMinimalReproduction.app/VENTokenMinimalReproduction";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -427,6 +503,7 @@
 		};
 		3DB0EE381993BA0700130221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775C4BB8D2CD4393860A9E55 /* Pods-VENTokenMinimalReproductionTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VENTokenMinimalReproduction.app/VENTokenMinimalReproduction";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -462,6 +539,7 @@
 				3DB0EE351993BA0700130221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DB0EE361993BA0700130221 /* Build configuration list for PBXNativeTarget "VENTokenMinimalReproductionTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +548,7 @@
 				3DB0EE381993BA0700130221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

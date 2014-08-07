@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VENTokenField.h>
 
-@interface MasterViewController : UITableViewController
+@interface ViewController : UITableViewController < VENTokenFieldDataSource, VENTokenFieldDelegate >
+
+@property (weak, nonatomic) IBOutlet VENTokenField *tokenField;
 
 @end
